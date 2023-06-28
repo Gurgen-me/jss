@@ -111,9 +111,12 @@ body {
 .header__container__block .user__body__account-logo {
   width: 35px;
   height: 35px;
-  src: url(../img/avatar.jpg);
+  background: url(../img/avatar.jpg);
   border-radius: 50%;
   margin-left: 1rem;
+  background-position: center;
+  background-size: 105%;
+  background-repeat: no-repeat;
 }
 .header__container__block .caroosel {
   overflow: hidden;
